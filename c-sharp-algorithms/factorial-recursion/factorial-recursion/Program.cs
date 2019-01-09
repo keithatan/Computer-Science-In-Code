@@ -11,14 +11,20 @@ namespace factorial_recursion
         static int factorial(int num)
         {
             // base case 
-            if() {}
+            if(num == 0 || num == 1) {
+                return 1;
+            } else {
+            // recursion
+				return num * factorial(num - 1);
+            }
         }
     
+	
 
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(factorial(10));
             Console.ReadKey();
         }
     }
