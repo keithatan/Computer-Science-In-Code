@@ -24,7 +24,9 @@ namespace fibonacci_operation_counter
 
 		static void Main ( string[] args )
 			{
-			Console.WriteLine (FibonacciOperationsCounter(10));
+			Console.WriteLine ("Counting operations........");
+			Console.WriteLine (FibonacciOperationsCounter(40));
+			// returns 102334154  for the 40th fib number
 			Console.ReadKey ( ); 
 			}
 		}
