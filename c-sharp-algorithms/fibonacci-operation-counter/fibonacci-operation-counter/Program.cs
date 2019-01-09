@@ -15,7 +15,11 @@ namespace fibonacci_operation_counter
 		/// <param name="num"></param>
 		/// <returns></returns>
 		static int FibonacciOperationsCounter(int num){
-
+			if(num == 1 || num == 2) {
+				return 0;
+			} else {
+				return 1 + FibonacciOperationsCounter ( num - 1 ) + FibonacciOperationsCounter ( num - 2 );
+			}
 		}
 
 		static void Main ( string[] args )
