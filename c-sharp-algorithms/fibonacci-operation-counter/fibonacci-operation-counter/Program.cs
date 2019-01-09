@@ -13,7 +13,7 @@ namespace fibonacci_operation_counter
 		/// This function will count how many operations are ran when using the fibonacci solving recusive method
 		/// </summary>
 		/// <param name="num"></param>
-		/// <returns></returns>
+		/// <returns>the number of operations to calculate the fib number</returns>
 		static int FibonacciOperationsCounter(int num){
 			if(num == 1 || num == 2) {
 				return 0;
@@ -24,7 +24,6 @@ namespace fibonacci_operation_counter
 
 		static void Main ( string[] args )
 			{
-			
 			Console.WriteLine (FibonacciOperationsCounter(10));
 			Console.ReadKey ( ); 
 			}
