@@ -24,6 +24,7 @@ namespace binary_search_recursion
 				}
 			else if( source.Length <= 1 )
 				{
+				// if array is empty or 1, we have tried all choices number does not exist
 				return false;
 				}
 			else
@@ -32,23 +33,20 @@ namespace binary_search_recursion
 					{
 					// if middle is smaller then we go right
 					int[] right = source.Skip(middle).ToArray();
-
-					BinarySearchAlgorithm(right, search);
+					// call the function again with the right array
+					return BinarySearchAlgorithm(right, search);
 
 					}
 				else if( search < source[middle] )
 					{
 					// if middle is smaller then we go left 
 					int[] left = source.Take(middle).ToArray();
+					// call the function again with the left array
+					return BinarySearchAlgorithm(left, search);
 
-					BinarySearchAlgorithm(left, search);
-
-					}
-				else
-					{
-					return false;
 					}
 				}
+			return false;
 		}
 
 		/// <summary>
@@ -68,7 +66,7 @@ namespace binary_search_recursion
 			 
 			// The code provided will print ‘Hello World’ to the console.
 			// Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-			Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 23 ));
+			Console.WriteLine (BinarySearchAlgorithm(listMaker(1000), 23 ));
 			Console.ReadKey ( );
 
 			// Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
