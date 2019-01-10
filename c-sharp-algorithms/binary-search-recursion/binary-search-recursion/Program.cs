@@ -60,7 +60,11 @@ namespace binary_search_recursion
 					list.Add(i);
 				return list.ToArray();
 			}
-
+		
+		/// <summary>
+		/// This func runs when the project is compiled, it currently holds the tests for the binary search algo
+		/// </summary>
+		/// <param name="args"></param>
 		static void Main ( string[] args )
 			{  
 			// since the search num is smaller then the source array it will return true
