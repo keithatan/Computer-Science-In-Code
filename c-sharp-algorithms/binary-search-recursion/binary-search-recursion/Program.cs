@@ -8,7 +8,15 @@ namespace binary_search_recursion
 	{
 	class Program
 		{
+		/// <summary>
+		/// Takes in a source array and a number to search for using the binary search method.
+		/// </summary>
+		/// <param name="source">An array of integers.</param>
+		/// <param name="search">The number to find in the array.</param>
+		/// <returns>True if found, False if not found.</returns>
+		static int binarySearch(int[] source, int search) {
 
+		}
 
 		static void Main ( string[] args )
 			{
