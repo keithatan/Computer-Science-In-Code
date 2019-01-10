@@ -15,7 +15,13 @@ namespace binary_search_recursion
 		/// <param name="search">The number to find in the array.</param>
 		/// <returns>True if found, False if not found.</returns>
 		static int binarySearch(int[] source, int search) {
+			//split the array by the middle number
+			int middle = Math.Floor ( source.Length / 2 );
 
+			if (source[middle] == search) {
+				// 
+				return true;
+			}
 		}
 
 		static void Main ( string[] args )
