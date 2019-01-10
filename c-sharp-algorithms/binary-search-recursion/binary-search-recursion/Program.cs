@@ -63,6 +63,9 @@ namespace binary_search_recursion
 
 		static void Main ( string[] args )
 			{  
+			// since the search num is smaller then the source array it will return true
+			Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 230 )); // true 
+			// since the search num is larger then the source array it will return false
 			Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 230 )); // false 
 			Console.ReadKey ( );
 			}
