@@ -15,23 +15,19 @@ namespace binary_search_recursion
 		/// <returns>True if found, False if not found.</returns>
 		static bool BinarySearchAlgorithm ( int[] source, int search ) {
 			//split the array by the middle number
-			int middle = Convert.ToInt16(Math.Floor(Convert.ToDouble(Convert.ToDouble( source.Length / 2 ))));
+			int middle = Convert.ToInt16(Math.Floor(Convert.ToDouble( source.Length / 2 )));
 
 			if( source[middle] == search )
 				{
 				// 
 				return true;
-
 				}
 			else if( source.Length <= 1 )
 				{
-
 				return false;
-
 				}
 			else
 				{
-
 				if( source[middle] < search )
 					{
 					// if middle is smaller then we go right
