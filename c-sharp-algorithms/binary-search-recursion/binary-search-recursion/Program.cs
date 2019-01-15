@@ -7,6 +7,7 @@ namespace binary_search_recursion
 	{
 	class Program
 		{
+		static public int counter = 0;
 		/// <summary>
 		/// Takes in a source array and a number to search for using the binary search method.
 		/// </summary>
@@ -14,12 +15,14 @@ namespace binary_search_recursion
 		/// <param name="search">The number to find in the array.</param>
 		/// <returns>True if found, False if not found.</returns>
 		static bool BinarySearchAlgorithm ( int[] source, int search ) {
+			counter++;
 			//split the array by the middle number
-			int middle = Convert.ToInt16(Math.Floor(Convert.ToDouble( source.Length / 2 )));
+			int middle = Convert.ToInt32(Math.Floor(Convert.ToDouble( source.Length / 2 )));
 
 			if( source[middle] == search )
 				{
 				// 
+				Console.WriteLine(counter);
 				return true;
 				}
 			else if( source.Length <= 1 )
@@ -68,9 +71,9 @@ namespace binary_search_recursion
 		static void Main ( string[] args )
 			{  
 			// since the search num is smaller then the source array it will return true
-			Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 17 )); // true 
+			Console.WriteLine (BinarySearchAlgorithm(listMaker(100000), 99999 )); // true 
 			// since the search num is larger then the source array it will return false
-			Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 230 )); // false 
+			//Console.WriteLine (BinarySearchAlgorithm(listMaker(100), 230 )); // false 
 			Console.ReadKey ( );
 			}
 		}
