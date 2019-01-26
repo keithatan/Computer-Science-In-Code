@@ -18,8 +18,8 @@ With Insertion Sort we compare the current element with the element ahead of it.
 ## Examples
 
 ![Sorting example](https://thumbs.gfycat.com/SilkyBrownHoverfly-size_restricted.gif)
-![Sorting example](https://thumbs.gfycat.com/UnfinishedBoldGenet-size_restricted.gif)
 ![Sorting example](https://thumbs.gfycat.com/CornyThickGordonsetter-small.gif)
+![Sorting example](https://thumbs.gfycat.com/UnfinishedBoldGenet-size_restricted.gif)
 
 ##### Links
 - https://www.youtube.com/watch?v=OGzPmgsI-pQ
