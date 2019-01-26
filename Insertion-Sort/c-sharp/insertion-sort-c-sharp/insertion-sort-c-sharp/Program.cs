@@ -8,5 +8,10 @@ namespace insertionsortcsharp
         {
             Console.WriteLine("Hello World!");
         }
+
+        public static int[] insertionSort(int[] array)
+        {
+
+        }
     }
 }
