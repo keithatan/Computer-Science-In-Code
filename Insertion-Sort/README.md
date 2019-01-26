@@ -4,9 +4,10 @@ With Insertion Sort we compare the current element with the element ahead of it.
 
 ## Complexity
 
-| Name                  | Best            | Average             | Worst               |
-| --------------------- | :-------------: | :-----------------: | :-----------------: | 
-| **Insertion sort**    | n               | n<sup>2</sup>       | n<sup>2</sup>       |
+| Best            | Average             | Worst               |
+| :-------------: | :-----------------: | :-----------------: | 
+| n               | n<sup>2</sup>       | n<sup>2</sup>       |
 
 ## How it works
 
+1. 
