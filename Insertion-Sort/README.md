@@ -18,7 +18,6 @@ With Insertion Sort we compare the current element with the element ahead of it.
 ## Examples
 
 ![Sorting example](https://thumbs.gfycat.com/SilkyBrownHoverfly-size_restricted.gif)
-![Sorting example](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi93oWLmIzgAhVrg-AKHY4MCO4QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.raspberrypi.org%2Flearning%2Fvisualising-sorting-with-python%2Flesson-3%2Fplan%2F&psig=AOvVaw2zqw3lxMKd2frNvpAIZm91&ust=1548617339902158)
 ![Sorting example](https://thumbs.gfycat.com/UnfinishedBoldGenet-size_restricted.gif)
 ![Sorting example](https://thumbs.gfycat.com/CornyThickGordonsetter-small.gif)
 
