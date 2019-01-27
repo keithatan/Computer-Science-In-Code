@@ -19,5 +19,6 @@ With Insertion Sort we compare the current element with the element ahead of it.
 ![Sorting example](https://thumbs.gfycat.com/CornyThickGordonsetter-small.gif)
 ![Sorting example](https://thumbs.gfycat.com/UnfinishedBoldGenet-size_restricted.gif)
 
-##### Links
+##### MORE LINKS TO LEARN INSERTION SORT
+- https://courses.cs.vt.edu/csonline/Algorithms/Lessons/InsertionSort/index.html
 - https://www.youtube.com/watch?v=OGzPmgsI-pQ
