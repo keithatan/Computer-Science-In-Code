@@ -1,7 +1,7 @@
 # Computer Science in Code.
 This is an Computer Science "Algorithm and Data Structure directory", where users can find quick relevant information about certain Algorithms or Data Structures.
 
-#### Contributing
+## Contributing
 
 If you would like to contribute to this directory, please check the instructions and rules: [Contributing Steps](https://github.com/MikaelAbehsera/Computer-Science-In-Code/blob/master/Contributing-rules.md).
 
