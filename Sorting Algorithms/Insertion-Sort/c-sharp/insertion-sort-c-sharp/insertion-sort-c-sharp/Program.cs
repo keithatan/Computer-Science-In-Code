@@ -13,7 +13,6 @@ namespace insertionsortcsharp
 
             Console.WriteLine(String.Join(", ", array));
             Console.ReadLine();
-
         }
 
         /// <summary>
