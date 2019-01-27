@@ -25,7 +25,7 @@ Quick thanks for being intrested in contributing to the CS directory :). This pa
 
 ## Contributing Template
 
-NOTE: remove all quotes for the real template.
+NOTE: After copy pasting template, remove all quotes for the real template.
 
 "# <TOPIC NAME>"
 
