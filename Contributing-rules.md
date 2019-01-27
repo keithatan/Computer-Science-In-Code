@@ -34,7 +34,7 @@ NOTE: remove all quotes for the real template.
 "## Complexity Table"
 " | Best            | Average             | Worst               | "
 " | :-------------: | :-----------------: | :-----------------: | "
-" | n               | n<sup>2</sup>       | n<sup>2</sup>       | "
+" | n               | n< sup>2< /sup>      | n< sup>2</ sup>       | "
 
 " ## How it works "
 "1. steps"
