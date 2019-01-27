@@ -1,3 +1,6 @@
+
+![Contributing](https://www.mememaker.net/api/bucket?path=static/img/memes/full/2018/Mar/28/3/matthew-meme-of-land-ethic-127355.png)
+
 Quick thanks for being intrested in contributing to the CS directory :). This page consists of the style guide and steps to contributing!
 
 # Steps to adding anything!
