@@ -20,7 +20,7 @@ Quick thanks for being intrested in contributing to the CS directory :). This pa
 12. If the Pull Request does not pass, check the comments for the reason why and fix it accordingly then you can make another Pr, or resubmit the same one.
 
 
-#Contributing Template
+## Contributing Template
 
 "# <TOPIC NAME>"
 
