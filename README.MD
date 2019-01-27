@@ -7,14 +7,14 @@ If you would like to contribute to this directory, please check the instructions
 
 ## Table Of Contents
 
-* ** Sorting Algorithms **
+* **Sorting Algorithms**
   * [Insertion Sort](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Sorting%20Algorithms/Insertion-Sort) (C#)
 
-* ** Searching Algorithms **
+* **Searching Algorithms**
 
-* ** Data Structures **
+* **Data Structures**
 
-* ** Math Topics in Code **
+* **Math Topics in Code**
 
 
 ## Contributor List
