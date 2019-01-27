@@ -21,5 +21,4 @@ Merge sort is a very quick way to sort array/lists. It uses the Conquer and Divi
 ![Merge Sort example](https://gifimage.net/wp-content/uploads/2017/10/merge-sort-gif-9.gif)
 
 ##### MORE LINKS TO LEARN INSERTION SORT
-- https://courses.cs.vt.edu/csonline/Algorithms/Lessons/InsertionSort/index.html
-- https://www.youtube.com/watch?v=OGzPmgsI-pQ
+- https://www.youtube.com/watch?v=KF2j-9iSf4Q
