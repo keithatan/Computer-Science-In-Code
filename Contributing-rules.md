@@ -22,6 +22,8 @@ Quick thanks for being intrested in contributing to the CS directory :). This pa
 
 ## Contributing Template
 
+NOTE: remove all quotes for the real template.
+
 "# <TOPIC NAME>"
 
 "< Topic Description, history, facts, etc. >"
