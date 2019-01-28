@@ -7,7 +7,7 @@ namespace insertionsortcsharp
     {
         public static void Main(string[] args)
         {
-            int[] array = { 10, 12, 3, 4, 5, 65, 454, 32, 14, 63, 34, 343, 2356, 123, 143, 321, 432, 156 };
+            int[] array = { 1, 23, 222, 223, 224, 225, 10, 12, 3, 4, 5, 65, 454, 32, 14, 63, 34, 343, 2356, 123, 143, 321, 432, 156 };
 
             InsertionSort(array, array.Length);
 
