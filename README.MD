@@ -9,6 +9,7 @@ If you would like to contribute to this directory, please check the instructions
 
 * **Sorting Algorithms**
   * [Insertion Sort](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Sorting%20Algorithms/Insertion-Sort) (C#)
+  * [Merge Sort](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Sorting%20Algorithms/Merge-Sort) (C#)
 
 * **Searching Algorithms**
 
