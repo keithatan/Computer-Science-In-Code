@@ -17,8 +17,20 @@ def merge(left, right):
   return result
 
 def mergesort(m):
+  if len(m) <= 1:
+      return m
+
+  middle = len(m) // 2
+  left = m[:middle]
+  right = m[middle:]
+
+  left = mergesort(left)
+  right = mergesort(right)
+  return list(merge(left, right))
+
 
 
 array = [2000, 8, 1, 4, 14, 7, 16, 10, 9, 3, 53, 64, 2435, 234, 123, 135, 6, 76, 543]
 sortedArray = mergesort(array)
-print B
+
+print(sortedArray)
