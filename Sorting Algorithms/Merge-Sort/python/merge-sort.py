@@ -28,9 +28,8 @@ def mergesort(m):
   right = mergesort(right)
   return list(merge(left, right))
 
-
-
 array = [2000, 8, 1, 4, 14, 7, 16, 10, 9, 3, 53, 64, 2435, 234, 123, 135, 6, 76, 543]
 sortedArray = mergesort(array)
 
 print(sortedArray)
+# returns => [1, 3, 4, 6, 7, 8, 9, 10, 14, 16, 53, 64, 76, 123, 135, 234, 543, 2000, 2435]
