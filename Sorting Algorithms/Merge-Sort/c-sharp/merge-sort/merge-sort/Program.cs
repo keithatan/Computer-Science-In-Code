@@ -45,15 +45,19 @@ namespace mergesort
 
             if(leftIndex < left.Length)
             {
+                Console.WriteLine("before, left: " + String.Join(", ", result));
                 int[] half = left.Skip(leftIndex).ToArray();
                 result.AddRange(half);
                 //result.Add(left[leftIndex]);
+                Console.WriteLine("after, left: " + String.Join(", ", result));
             }
             else if(rightIndex < right.Length)
             {
+                Console.WriteLine("before, right: " + String.Join(", ", result));
                 int[] half = left.Skip(rightIndex).ToArray();
                 result.AddRange(half);
                 //result.Add(right[rightIndex]);
+                Console.WriteLine("after, right: " + String.Join(", ", result));
             }
 
             return result.ToArray();
@@ -73,12 +77,13 @@ namespace mergesort
 
             double math = array.Length / 2;
             int middle = Convert.ToInt32(Math.Floor(math));
-            int[] left = array.Take(middle).ToArray();
-            int[] right = array.Skip(middle).ToArray();
-            Console.WriteLine("left: " + String.Join(", ", left));
-            Console.WriteLine("rig: " + String.Join(", ", right));
+            int[] leftInital = array.Take(middle).ToArray();
+            int[] rightInital = array.Skip(middle).ToArray();
+            //Console.WriteLine("left: " + String.Join(", ", leftInital));
+            //Console.WriteLine("rig: " + String.Join(", ", rightInital));
 
-
+            int[] left = Mergesort(leftInital);
+            int[] right = Mergesort(rightInital);
             return Merge(left, right);
         }
     }
