@@ -44,13 +44,11 @@ namespace mergesort
             {
                 int[] half = left.Skip(leftIndex).ToArray();
                 result.AddRange(half);
-                //result.Add(left[leftIndex]);
             }
             else if(rightIndex < right.Length)
             {
                 int[] half = right.Skip(rightIndex).ToArray();
                 result.AddRange(half);
-                //result.Add(right[rightIndex]);
             }
 
             return result.ToArray();
