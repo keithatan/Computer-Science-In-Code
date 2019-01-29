@@ -10,6 +10,12 @@ def merge(left, right):
       result.append(right[rightIndex])
       rightIndex += 1
 
+  if leftIndex < len(left):
+    result.extend(left[leftIndex:])
+  elif rightIndex < len(right):
+    result.extend(right[rightIndex:])
+  return result
+
 def mergesort(m):
 
 
