@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-//NOTE: SPLITTING WORKS ON LINE +72
-//NOTE: THE RETURN ARRAY IS NOT CORRECT NEEDS REFRACTORING
-
 namespace mergesort
 {
     class MainClass
@@ -18,11 +15,11 @@ namespace mergesort
         }
 
         /// <summary>
-        /// Merge the specified left and right.
+        /// Merge the specified left and right arrays.
         /// </summary>
-        /// <returns>The merge.</returns>
-        /// <param name="left">Left.</param>
-        /// <param name="right">Right.</param>
+        /// <returns>The merged arrays.</returns>
+        /// <param name="left">Left array.</param>
+        /// <param name="right">Right array.</param>
         public static int[] Merge(int[] left, int[] right)
         {
             List<int> result = new List<int>();
@@ -45,29 +42,25 @@ namespace mergesort
 
             if(leftIndex < left.Length)
             {
-                Console.WriteLine("before, left: " + String.Join(", ", result));
                 int[] half = left.Skip(leftIndex).ToArray();
                 result.AddRange(half);
                 //result.Add(left[leftIndex]);
-                Console.WriteLine("after, left: " + String.Join(", ", result));
             }
             else if(rightIndex < right.Length)
             {
-                Console.WriteLine("before, right: " + String.Join(", ", result));
-                int[] half = left.Skip(rightIndex).ToArray();
+                int[] half = right.Skip(rightIndex).ToArray();
                 result.AddRange(half);
                 //result.Add(right[rightIndex]);
-                Console.WriteLine("after, right: " + String.Join(", ", result));
             }
 
             return result.ToArray();
         }
 
         /// <summary>
-        /// Mergesort the specified array.
+        /// Mergesort is the main function of the sorting algorithm it deals with the recursion.
         /// </summary>
-        /// <returns>The mergesort.</returns>
-        /// <param name="array">Array.</param>
+        /// <returns>Array sorted with the mergesort method.</returns>
+        /// <param name="array">Array</param>
         public static int[] Mergesort(int[] array)
         {
             if (array.Length <= 1)
@@ -79,8 +72,6 @@ namespace mergesort
             int middle = Convert.ToInt32(Math.Floor(math));
             int[] leftInital = array.Take(middle).ToArray();
             int[] rightInital = array.Skip(middle).ToArray();
-            //Console.WriteLine("left: " + String.Join(", ", leftInital));
-            //Console.WriteLine("rig: " + String.Join(", ", rightInital));
 
             int[] left = Mergesort(leftInital);
             int[] right = Mergesort(rightInital);
