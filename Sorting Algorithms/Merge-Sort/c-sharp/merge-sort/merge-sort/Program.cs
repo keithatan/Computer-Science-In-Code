@@ -13,7 +13,7 @@ namespace mergesort
         {
             int[] array = { 2000, 8, 1, 4, 14, 7, 16, 10, 9, 3 };
             int[] sortedArray = Mergesort(array); 
-            Console.WriteLine(String.Join(", ", sortedArray));
+            Console.WriteLine("Sorted: " + String.Join(", ", sortedArray));
             Console.ReadLine();
         }
 
@@ -45,11 +45,15 @@ namespace mergesort
 
             if(leftIndex < left.Length)
             {
-                result.Add(left[leftIndex]);
+                int[] half = left.Skip(leftIndex).ToArray();
+                result.AddRange(half);
+                //result.Add(left[leftIndex]);
             }
             else if(rightIndex < right.Length)
             {
-                result.Add(right[rightIndex]);
+                int[] half = left.Skip(rightIndex).ToArray();
+                result.AddRange(half);
+                //result.Add(right[rightIndex]);
             }
 
             return result.ToArray();
@@ -71,8 +75,8 @@ namespace mergesort
             int middle = Convert.ToInt32(Math.Floor(math));
             int[] left = array.Take(middle).ToArray();
             int[] right = array.Skip(middle).ToArray();
-            Console.WriteLine(String.Join(", ", left));
-            Console.WriteLine(String.Join(", ", right));
+            Console.WriteLine("left: " + String.Join(", ", left));
+            Console.WriteLine("rig: " + String.Join(", ", right));
 
 
             return Merge(left, right);
