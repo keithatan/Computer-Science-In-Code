@@ -8,7 +8,7 @@ namespace mergesort
     {
         public static void Main(string[] args)
         {
-            int[] array = { 2000, 8, 1, 4, 14, 7, 16, 10, 9, 3 };
+            int[] array = { 2000, 8, 1, 4, 14, 7, 16, 10, 9, 3, 53, 64, 2435, 234, 123, 135, 6, 76, 543 };
             int[] sortedArray = Mergesort(array); 
             Console.WriteLine("Sorted: " + String.Join(", ", sortedArray));
             Console.ReadLine();
