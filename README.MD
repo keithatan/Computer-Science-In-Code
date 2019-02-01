@@ -21,4 +21,5 @@ If you would like to contribute to this directory, please check the instructions
 ## Contributor List
 
 - Mikael Abehsera [Github](https://github.com/MikaelAbehsera), [Linkedin](https://www.linkedin.com/in/mikaelabehsera/), [Youtube](https://www.youtube.com/channel/UCXVDBeCwro9FqNeBr41Q2BQ?view_as=subscriber), [CodeWars](https://www.codewars.com/users/MikaelAbehsera).
+- Keith Alexander [Github](https://github.com/keithatan), [Linkedin](https://www.linkedin.com/in/keithatan/).
 
