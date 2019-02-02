@@ -12,7 +12,7 @@ If you would like to contribute to this directory, please check the instructions
   * [Merge Sort](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Sorting%20Algorithms/Merge-Sort) (C#)
 
 * **Searching Algorithms**
-  * [Binary Search](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Searching%20Algorithms/Binary-Search)
+  * [Binary Search](https://github.com/MikaelAbehsera/Computer-Science-In-Code/tree/master/Searching%20Algorithms/Binary-Search)(c#|python)
 * **Data Structures**
 
 * **Math Topics in Code**
