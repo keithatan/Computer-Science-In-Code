@@ -1,0 +1,24 @@
+def levelOrder(self, root):
+        l = [];
+        
+        if root == None:
+            return l
+        q = queue.Queue(maxsize=0);
+        q.put(root)
+        
+        while (q.empty() == False):
+            x = []
+            b = q.qsize()
+            
+            for i in range(b):
+                curr = q.get()
+                if (curr.left != None):
+                    q.put(curr.left)
+                if (curr.right != None):
+                    q.put(curr.right)
+                x.append(curr.val)
+                
+            l.append(x)
+            
+        
+        return l
