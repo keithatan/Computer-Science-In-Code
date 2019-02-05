@@ -1,24 +1,41 @@
-def levelOrder(self, root):
-        l = [];
+# This implementation of Level Order Traversal runs in O(n) and uses O(n) space due to the use of a queue.
+
+def levelOrderTraversal(self, root):
+        # This is an array of arrays
+        # Each index counts for a level. level[0] is the 0 level aka the root and level[1] is the first level after root
+        # Each array inside each index of level is nodes from left to right for that level
+        level = [];
         
+        # Edge Case
         if root == None:
-            return l
+            return level
+            
+        # Instantiate our queue for the problem
         q = queue.Queue(maxsize=0);
         q.put(root)
         
+        # Loop for traversal
         while (q.empty() == False):
-            x = []
+            # New array for the specific level
+            nodes = []
+            # Checks how much is in the queue, which represents the number of nodes in the previous level
             b = q.qsize()
             
+            # For each queue in the last level, we will get their children and put them into the end of the queue
+            # As we take them out, we put them into the x array and then append the x array into the levels array to get
+            # all the nodes for that level
             for i in range(b):
+                # Get the current node at the front of the queue. This also removes it from there.
                 curr = q.get()
+                
                 if (curr.left != None):
                     q.put(curr.left)
                 if (curr.right != None):
                     q.put(curr.right)
-                x.append(curr.val)
+                    
+                nodes.append(curr.val)
                 
-            l.append(x)
+            level.append(x)
             
         
-        return l
+        return level
